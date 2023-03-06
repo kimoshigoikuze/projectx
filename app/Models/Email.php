@@ -18,7 +18,6 @@ class Email extends Model
         'subject',
         'date',
         'from',
-        'parsed'
     ];
 
     public function addAttachment($attachment)
